@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL7Library", "HL7Library\HL7Library.csproj", "{C16256CF-F7D9-4350-B45E-1A8DC47AF16A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{61990B0D-E39C-42E5-AADB-B84880309D02}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL7Library.Tests", "HL7Library.Tests\HL7Library.Tests.csproj", "{3D7CCFC7-65C0-4DDE-A1C7-F1261E04FD37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C16256CF-F7D9-4350-B45E-1A8DC47AF16A} = {C16256CF-F7D9-4350-B45E-1A8DC47AF16A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C16256CF-F7D9-4350-B45E-1A8DC47AF16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16256CF-F7D9-4350-B45E-1A8DC47AF16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16256CF-F7D9-4350-B45E-1A8DC47AF16A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C16256CF-F7D9-4350-B45E-1A8DC47AF16A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C16256CF-F7D9-4350-B45E-1A8DC47AF16A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C16256CF-F7D9-4350-B45E-1A8DC47AF16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16256CF-F7D9-4350-B45E-1A8DC47AF16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16256CF-F7D9-4350-B45E-1A8DC47AF16A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C16256CF-F7D9-4350-B45E-1A8DC47AF16A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C16256CF-F7D9-4350-B45E-1A8DC47AF16A}.Release|x86.ActiveCfg = Release|Any CPU
+		{3D7CCFC7-65C0-4DDE-A1C7-F1261E04FD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7CCFC7-65C0-4DDE-A1C7-F1261E04FD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7CCFC7-65C0-4DDE-A1C7-F1261E04FD37}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3D7CCFC7-65C0-4DDE-A1C7-F1261E04FD37}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3D7CCFC7-65C0-4DDE-A1C7-F1261E04FD37}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3D7CCFC7-65C0-4DDE-A1C7-F1261E04FD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7CCFC7-65C0-4DDE-A1C7-F1261E04FD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7CCFC7-65C0-4DDE-A1C7-F1261E04FD37}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3D7CCFC7-65C0-4DDE-A1C7-F1261E04FD37}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3D7CCFC7-65C0-4DDE-A1C7-F1261E04FD37}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
